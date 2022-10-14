@@ -1,0 +1,51 @@
+.button
+{
+   margin: 0 auto;
+   display: block;
+   width: 41px;
+   height: 38px;
+   padding: 10px;
+   border-radius: 14px;
+   background: rgb(0, 0, 0);
+   color: white;
+   cursor: pointer;
+   position: relative;
+}
+
+.button span
+{
+   display: block;
+   width: 40px;
+   height: 4px;
+   background: goldenrod;
+   margin-top: 7px;
+}
+
+label
+{
+   cursor: pointer;
+}
+
+#menu-toggle
+{
+   display: none;
+}
+
+#DespligueMenu
+{
+   display: none;
+   text-align: center;
+   padding: 5px 0; /*quita puntos de indice*/
+}
+
+#DespligueMenu li a
+{
+   display: block;
+   padding: 5px;
+   color: black;
+}
+
+#menu-toggle:checked + #DespligueMenu
+{
+   display: block;
+}
